@@ -14,8 +14,9 @@
 		BCF642171BF320B7002DCAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF642161BF320B7002DCAEB /* Images.xcassets */; };
 		BCF6421A1BF320B7002DCAEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF642181BF320B7002DCAEB /* LaunchScreen.xib */; };
 		BCF642261BF320B7002DCAEB /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF642251BF320B7002DCAEB /* GitDemoTests.m */; };
-		BCF642391BF330B3002DCAEB /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF642381BF330B3002DCAEB /* BViewController.m */; };
 		BCF642321BF328B4002DCAEB /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF642311BF328B4002DCAEB /* ViewControllerA.m */; };
+		BCF642391BF330B3002DCAEB /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF642381BF330B3002DCAEB /* BViewController.m */; };
+		BCF642411BF34480002DCAEB /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF642401BF34480002DCAEB /* CCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +43,12 @@
 		BCF6421F1BF320B7002DCAEB /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF642241BF320B7002DCAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF642251BF320B7002DCAEB /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
-		BCF642371BF330B3002DCAEB /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
-		BCF642381BF330B3002DCAEB /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		BCF642301BF328B4002DCAEB /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
 		BCF642311BF328B4002DCAEB /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		BCF642371BF330B3002DCAEB /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		BCF642381BF330B3002DCAEB /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		BCF6423F1BF34480002DCAEB /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		BCF642401BF34480002DCAEB /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		BCF642081BF320B7002DCAEB /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCF6423E1BF34476002DCAEB /* C */,
 				BCF6422F1BF3287F002DCAEB /* A */,
 				BCF6420D1BF320B7002DCAEB /* AppDelegate.h */,
 				BCF6420E1BF320B7002DCAEB /* AppDelegate.m */,
@@ -135,6 +139,15 @@
 				BCF642311BF328B4002DCAEB /* ViewControllerA.m */,
 			);
 			name = A;
+			sourceTree = "<group>";
+		};
+		BCF6423E1BF34476002DCAEB /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6423F1BF34480002DCAEB /* CCViewController.h */,
+				BCF642401BF34480002DCAEB /* CCViewController.m */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +252,7 @@
 			files = (
 				BCF642321BF328B4002DCAEB /* ViewControllerA.m in Sources */,
 				BCF642121BF320B7002DCAEB /* ViewController.m in Sources */,
+				BCF642411BF34480002DCAEB /* CCViewController.m in Sources */,
 				BCF642391BF330B3002DCAEB /* BViewController.m in Sources */,
 				BCF6420F1BF320B7002DCAEB /* AppDelegate.m in Sources */,
 				BCF6420C1BF320B7002DCAEB /* main.m in Sources */,
